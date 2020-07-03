@@ -1,0 +1,10 @@
+{
+  "subsystem": "limon-test-kiselev",
+  "authorizationPage": [ "/profile" ],
+  "users": [
+    {
+      "users": "Admin",
+      "password": "12345"
+    }
+  ]
+}

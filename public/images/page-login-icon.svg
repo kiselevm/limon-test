@@ -1,0 +1,17 @@
+<svg width="48" height="50" viewBox="0 0 48 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<path id="Oval" opacity="0.699265" fill-rule="evenodd" clip-rule="evenodd" d="M23.5 47C36.4787 47 47 36.4787 47 23.5C47 10.5213 36.4787 0 23.5 0C10.5213 0 0 10.5213 0 23.5C0 36.4787 10.5213 47 23.5 47Z" fill="url(#paint0_linear)"/>
+<path id="Path 12" d="M35 42.9651L38.9651 39L45.0174 45.0523C46.1124 46.1472 46.1124 47.9225 45.0174 49.0174C43.9225 50.1124 42.1472 50.1124 41.0523 49.0174L35 42.9651Z" fill="url(#paint1_linear)"/>
+<path id="Path 13" d="M43.812 10L48 14.1261L28.744 34L16 20.847C18.3073 18.5738 22.0252 18.617 24.2791 20.9432L28.744 25.5514L43.812 10Z" fill="#27C583"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="0" y2="47" gradientUnits="userSpaceOnUse">
+<stop stop-color="#27C583" stop-opacity="0.260107"/>
+<stop offset="1" stop-color="#27C583"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="35" y1="39" x2="35" y2="50" gradientUnits="userSpaceOnUse">
+<stop stop-color="#27C583" stop-opacity="0.260107"/>
+<stop offset="1" stop-color="#27C583"/>
+</linearGradient>
+</defs>
+</svg>

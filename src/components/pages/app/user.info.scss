@@ -1,0 +1,57 @@
+@import '../../../main.scss';
+
+.user-info {
+    display: flex;
+    padding: 7px;
+
+    > img {
+        width: 40px;
+    }
+
+    > .user-name {
+        align-self: center;
+        margin: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        max-width: 150px;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-overflow: ellipsis;
+    }
+
+    > .user-logout {
+        cursor: pointer;
+        align-self: center;
+
+        > img {
+            width: 30px;
+        }
+    }
+}
+
+
+@media only screen and (min-device-width: 2048px) {
+    .user-info {
+        padding: 14px;
+
+        > img {
+            padding-right: 10px;
+            width: 80px;
+        }
+
+        > .user-name {
+            margin: 20px;
+            max-width: 300px;
+            font-size: 36px;
+            line-height: 42px;
+        }
+
+        > .user-logout {
+
+            > img {
+                width: 60px;
+            }
+        }
+    }
+}

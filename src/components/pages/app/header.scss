@@ -1,0 +1,102 @@
+@import '../../../main.scss';
+
+.pageHeader {
+    padding: 10.5px;
+    min-width: 1280px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 75px;
+    background: #27C583;
+    align-content: center;
+
+    &__logo {
+        display: flex;
+        flex: 0 0 250px;
+        align-items: center;
+
+        > img {
+            width: 46px;
+        }
+
+        > h1 {
+            align-self: center;
+            font-size: 20px;
+            line-height: 21px;
+            text-transform: uppercase;
+            flex-basis: 154px;
+            margin: 0px 0px 0px 17px;
+            color: #FFFFFF;
+
+            > a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+            > a:hover {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+    }
+
+    &__block {
+        display: flex;
+        flex: 1 1 auto;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+
+        > ul {
+            display: flex;
+            flex: 1 0 auto;
+            list-style-type: none;
+            margin-bottom: 0;
+            padding-left: 0px;
+
+            > li {
+                font-size: 16px;
+                line-height: 19px;
+
+                > a {
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                }
+
+                .nav-link {
+                    padding: unset;
+                    padding: 10px;
+
+                    &:hover {
+                        background: #45d89a;
+                        border-radius: 10px;
+                    }
+                }
+
+                > .nav-link.active {
+                    position: relative;
+
+                    &:after {
+                        content: " ";
+                        display: block;
+                        height: 4px;
+                        background: #FFFFFF;
+                        opacity: 0.7;
+                        border-radius: 10px;
+                        margin-top: 5px;
+                        width: 100%;
+                        position: absolute;
+                        left: 0px;
+                    }
+                }
+            }
+        }
+    }
+
+    &__block2 {
+        display: flex;
+        flex-wrap: nowrap;
+        flex: 0 0 auto;
+        margin-left: auto;
+        justify-content: flex-end;
+    }
+}

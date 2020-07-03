@@ -1,0 +1,25 @@
+@import './main.scss';
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background: #ededed;
+
+    > #root {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /*flex-direction: column;
+        flex-wrap: nowrap;*/
+        .pageContent {
+            font-size: 32px;
+            display: flex;
+            flex: 1 0 auto;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.custom-btn {
+    background: #27C583;
+    border: none;
+    box-shadow: 0px 4px 12px rgba(39, 197, 131, 0.4);
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    width: 202px;
+    height: 60px;
+
+    &:focus {
+        outline: none;
+    }
+}

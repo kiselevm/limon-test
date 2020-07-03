@@ -1,0 +1,68 @@
+@import '../../../main.scss';
+
+.pageLoging {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 1;
+
+    .pageLogingContent {
+        margin-left: 25%;
+
+        &__profileText {
+            margin: 17px 0 30px 0;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            color: #2C313B;
+        }
+
+        .loginItem {
+            margin: 15px 0;
+
+            > input {
+                border: none;
+                border-bottom: 2px solid #EDF0F3;
+                width: 60%;
+                max-width: 300px;
+                height: 40px;
+
+                &:hover {
+                    outline: none;
+                }
+
+                &:focus {
+                    outline: none;
+                }
+
+                &::placeholder {
+                    color: #D6DCE1;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    line-height: 20px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        > form > .custom-btn {
+            margin-top: 30px;
+        }
+    }
+
+    &__column1 {
+        background-color: #FFFFFF;
+        flex: 1 0 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__column2 {
+        flex: 1 0 auto;
+        background-color: #27C583;
+
+        > img {
+            width: 100%;
+        }
+    }
+}
